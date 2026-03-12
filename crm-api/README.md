@@ -11,4 +11,4 @@ API varsayilan olarak `http://localhost:8080` adresinde calisir.
 ## PDF Upload
 
 Admin PDF yuklemeleri `uploads/pdfs` klasorune kaydedilir.
-Upload endpointi: `POST /api/admin/uploads/pdf` (multipart form-data, field: `pdf`)
+Upload endpointi: `POST /api/admin/uploads/pdf`
