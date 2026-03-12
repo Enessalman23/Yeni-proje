@@ -1,0 +1,479 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "System Admin",
+      "email": "admin@solveline.com",
+      "password": "Admin123!",
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "role": "admin",
+      "lastLogin": "2026-03-12T14:40:48.787Z"
+    },
+    {
+      "id": "usr-2",
+      "name": "Sales Manager",
+      "email": "manager@solveline.com",
+      "password": "Manager123!",
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "role": "manager",
+      "lastLogin": "N/A"
+    },
+    {
+      "id": "usr-3",
+      "name": "CRM User",
+      "email": "user@solveline.com",
+      "password": "User123!",
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "role": "user",
+      "lastLogin": "2026-03-12T12:52:14.322Z"
+    },
+    {
+      "id": "usr-1773143657347-8079",
+      "name": "Enes Salman",
+      "email": "enes@hotmail.com",
+      "password": "123",
+      "role": "user",
+      "createdAt": "2026-03-10T11:54:17.347Z",
+      "lastLogin": "2026-03-10T12:01:04.214Z"
+    },
+    {
+      "id": "usr-1773144103629-1398",
+      "name": "ee",
+      "email": "enes1@hotmail.com",
+      "password": "123",
+      "role": "user",
+      "createdAt": "2026-03-10T12:01:43.629Z",
+      "lastLogin": "2026-03-10T12:01:51.201Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1773136639580-2286",
+      "name": "Yapay Zeka Cozumleri (Solvenix Serisi)",
+      "description": ""
+    },
+    {
+      "id": "cat-1773136639580-2072",
+      "name": "Yazilim ve CRM Cozumleri",
+      "description": ""
+    },
+    {
+      "id": "cat-1773136639580-4639",
+      "name": "Telekom ve Baglanti Hizmetleri",
+      "description": ""
+    },
+    {
+      "id": "cat-1773136639580-3941",
+      "name": "Altyapi ve Donanim",
+      "description": ""
+    },
+    {
+      "id": "cat-1773136639580-2454",
+      "name": "Katma Degerli Servisler",
+      "description": ""
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-ai-1",
+      "name": "Sosyal Medya",
+      "category": "Yapay Zeka Cozumleri (Solvenix Serisi)",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Solvenix-AI-Sosyal-Medya-1773312915633.pdf",
+      "pdfName": "Solvenix AI Sosyal Medya.pdf",
+      "subCategory": "",
+      "imageUrl": "",
+      "imageName": ""
+    },
+    {
+      "id": "prod-ai-2",
+      "name": "Kalite Değerlendirme",
+      "category": "Yapay Zeka Cozumleri (Solvenix Serisi)",
+      "status": "Aktif",
+      "pdfUrl": "",
+      "pdfName": ""
+    },
+    {
+      "id": "prod-ai-3",
+      "name": "Touch",
+      "category": "Yapay Zeka Cozumleri (Solvenix Serisi)",
+      "status": "Aktif",
+      "pdfUrl": "",
+      "pdfName": ""
+    },
+    {
+      "id": "prod-ai-4",
+      "name": "Outbound",
+      "category": "Yapay Zeka Cozumleri (Solvenix Serisi)",
+      "status": "Aktif",
+      "pdfUrl": "",
+      "pdfName": ""
+    },
+    {
+      "id": "prod-ai-5",
+      "name": "LLM",
+      "category": "Yapay Zeka Cozumleri (Solvenix Serisi)",
+      "status": "Aktif",
+      "pdfUrl": "",
+      "pdfName": ""
+    },
+    {
+      "id": "prod-ai-6",
+      "name": "Sesli Asistan",
+      "category": "Yapay Zeka Cozumleri (Solvenix Serisi)",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/AI-Sesli-Asistan-1773312793167.pdf",
+      "pdfName": "AI Sesli Asistan.pdf",
+      "subCategory": "",
+      "imageUrl": "",
+      "imageName": ""
+    },
+    {
+      "id": "prod-crm-1",
+      "name": "Callintech (CRM)",
+      "category": "Yazilim ve CRM Cozumleri",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Callintech-1773312985300.pdf",
+      "pdfName": "Callintech.pdf",
+      "subCategory": "",
+      "imageUrl": "",
+      "imageName": ""
+    },
+    {
+      "id": "prod-crm-2",
+      "name": "Ncvav (Santral)",
+      "category": "Yazilim ve CRM Cozumleri",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Ncvav-1773313012705.pdf",
+      "pdfName": "Ncvav.pdf",
+      "subCategory": "",
+      "imageUrl": "",
+      "imageName": ""
+    },
+    {
+      "id": "prod-tel-1",
+      "name": "Sabit Telefon",
+      "category": "Telekom ve Baglanti Hizmetleri",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Sabit-Telefon-Hizmeti-1773143058997.pdf",
+      "pdfName": "Sabit Telefon Hizmeti.pdf"
+    },
+    {
+      "id": "prod-tel-2",
+      "name": "GSM Gateway",
+      "category": "Telekom ve Baglanti Hizmetleri",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/GSM-Gateway-1773142983948.pdf",
+      "pdfName": "GSM Gateway.pdf"
+    },
+    {
+      "id": "prod-tel-3",
+      "name": "SMS",
+      "category": "Telekom ve Baglanti Hizmetleri",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/SMS-1773143042803.pdf",
+      "pdfName": "SMS.pdf"
+    },
+    {
+      "id": "prod-tel-4",
+      "name": "İnternet",
+      "category": "Telekom ve Baglanti Hizmetleri",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/-nternet-Hizmetleri-1773143162073.pdf",
+      "pdfName": "İnternet Hizmetleri.pdf"
+    },
+    {
+      "id": "prod-tel-5",
+      "name": "SIP Trunk",
+      "category": "Telekom ve Baglanti Hizmetleri",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/SIP-Trunk-Hizmetleri-1773313262972.pdf",
+      "pdfName": "SIP Trunk Hizmetleri.pdf",
+      "subCategory": "",
+      "imageUrl": "",
+      "imageName": ""
+    },
+    {
+      "id": "prod-tel-6",
+      "name": "IYS",
+      "category": "Telekom ve Baglanti Hizmetleri",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/IYS-Hizmetleri-1773312964837.pdf",
+      "pdfName": "IYS Hizmetleri.pdf",
+      "subCategory": "",
+      "imageUrl": "",
+      "imageName": ""
+    },
+    {
+      "id": "prod-inf-1",
+      "name": "Sunucu Kiralama (GPU dahil)",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/GPU-Sunucu-1773143199592.pdf",
+      "pdfName": "GPU Sunucu.pdf",
+      "subCategory": "",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_3-1773232486446.png",
+      "imageName": "Screenshot_3.png"
+    },
+    {
+      "id": "prod-inf-2",
+      "name": "VPN",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/VPN-Hizmetleri-1773313001054.pdf",
+      "pdfName": "VPN Hizmetleri.pdf",
+      "subCategory": "",
+      "imageUrl": "",
+      "imageName": ""
+    },
+    {
+      "id": "prod-inf-3",
+      "name": "IP Telefon",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "",
+      "pdfName": ""
+    },
+    {
+      "id": "prod-inf-4",
+      "name": "Kulaklık",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "",
+      "pdfName": ""
+    },
+    {
+      "id": "prod-inf-5",
+      "name": "Network ve Video Konferans",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "",
+      "pdfName": ""
+    },
+    {
+      "id": "prod-vas-1",
+      "name": "STT/TTS",
+      "category": "Katma Degerli Servisler",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/STT-TTS-1773312975990.pdf",
+      "pdfName": "STT TTS.pdf",
+      "subCategory": "",
+      "imageUrl": "",
+      "imageName": ""
+    },
+    {
+      "id": "prod-vas-2",
+      "name": "Sesli Mesaj",
+      "category": "Katma Degerli Servisler",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Sesli-Mesaj-Hizmeti-1773312801213.pdf",
+      "pdfName": "Sesli Mesaj Hizmeti.pdf",
+      "subCategory": "",
+      "imageUrl": "",
+      "imageName": ""
+    },
+    {
+      "id": "prod-vas-3",
+      "name": "Profesyonel Seslendirme",
+      "category": "Katma Degerli Servisler",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Profesyonel-Seslendirme-Hizmeti-1773312949203.pdf",
+      "pdfName": "Profesyonel Seslendirme Hizmeti.pdf",
+      "subCategory": "",
+      "imageUrl": "",
+      "imageName": ""
+    },
+    {
+      "id": "prod-1773217459461-243",
+      "name": "VT2000",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-_VT2000-1773217458677.pdf",
+      "pdfName": "Data Sheet _VT2000.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_19-removebg-preview-1773317507459.png",
+      "imageName": "Screenshot_19-removebg-preview.png"
+    },
+    {
+      "id": "prod-1773218263152-9766",
+      "name": "VT6300",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-_VT6300-1773218259967.pdf",
+      "pdfName": "Data Sheet _VT6300.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_5-1773235343262.png",
+      "imageName": "Screenshot_5.png"
+    },
+    {
+      "id": "prod-1773218295418-1552",
+      "name": "VT9800",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-_VT9800-1773218284814.pdf",
+      "pdfName": "Data Sheet _VT9800.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_12-1773314441020.png",
+      "imageName": "Screenshot_12.png"
+    },
+    {
+      "id": "prod-1773218440895-7467",
+      "name": "VTFlow",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-_VTFlow-1773218432609.pdf",
+      "pdfName": "Data Sheet _VTFlow.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_15-removebg-preview-1773316332438.png",
+      "imageName": "Screenshot_15-removebg-preview.png"
+    },
+    {
+      "id": "prod-1773218475180-6768",
+      "name": "VTX100",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-_VTX100-1773218470134.pdf",
+      "pdfName": "Data Sheet _VTX100.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_13-1773314464068.png",
+      "imageName": "Screenshot_13.png"
+    },
+    {
+      "id": "prod-1773218517440-2732",
+      "name": "VTX140",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-_VTX140-1773218508593.pdf",
+      "pdfName": "Data Sheet _VTX140.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_17-removebg-preview-1773316527500.png",
+      "imageName": "Screenshot_17-removebg-preview.png"
+    },
+    {
+      "id": "prod-1773218574602-6435",
+      "name": "VT5009",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-VT5009-1773218564560.pdf",
+      "pdfName": "Data Sheet VT5009.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_20-removebg-preview-1773317781444.png",
+      "imageName": "Screenshot_20-removebg-preview.png"
+    },
+    {
+      "id": "prod-1773218633353-7606",
+      "name": "VT6200",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-VT6200-1773218617842.pdf",
+      "pdfName": "Data Sheet VT6200.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_8-1773314333608.png",
+      "imageName": "Screenshot_8.png"
+    },
+    {
+      "id": "prod-1773218734445-2552",
+      "name": "VT6909",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-VT6909-1773218723480.pdf",
+      "pdfName": "Data Sheet VT6909.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_9-1773314358576.png",
+      "imageName": "Screenshot_9.png"
+    },
+    {
+      "id": "prod-1773218851122-6068",
+      "name": "VT9200",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-VT9200-1773218841286.pdf",
+      "pdfName": "Data Sheet VT9200.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_10-1773314387753.png",
+      "imageName": "Screenshot_10.png"
+    },
+    {
+      "id": "prod-1773218925417-3480",
+      "name": "VT9500",
+      "category": "Altyapi ve Donanim",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Data-Sheet-VT9500-1773218917350.pdf",
+      "pdfName": "Data Sheet VT9500.pdf",
+      "subCategory": "Kulaklık",
+      "imageUrl": "http://localhost:8080/uploads/images/Screenshot_11-1773314416516.png",
+      "imageName": "Screenshot_11.png"
+    },
+    {
+      "id": "prod-1773312883835-4816",
+      "slug": "sunucu-kiralama",
+      "name": "Sunucu Kiralama",
+      "category": "Altyapi ve Donanim",
+      "subCategory": "",
+      "status": "Aktif",
+      "pdfUrl": "http://localhost:8080/uploads/pdfs/Sunucu-Kiralama-1773312882793.pdf",
+      "pdfName": "Sunucu Kiralama.pdf",
+      "imageUrl": "",
+      "imageName": ""
+    }
+  ],
+  "pricing": [
+    {
+      "id": "price-1",
+      "plan": "Konuşma Başlangıç",
+      "old": "1150 TL",
+      "current": "1250 TL",
+      "change": "+8.7%"
+    },
+    {
+      "id": "price-2",
+      "plan": "Toplu SMS 10.000",
+      "old": "940 TL",
+      "current": "990 TL",
+      "change": "+5.3%"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1773144090083-8495",
+      "title": "Hoş Geldin Hediyesi:5.000 Ücretsiz SMS",
+      "content": "Hoş Geldin Hediyesi:5.000 Ücretsiz SMSHoş Geldin Hediyesi:5.000 Ücretsiz SMSHoş Geldin Hediyesi:5.000 Ücretsiz SMSHoş Geldin Hediyesi:5.000 Ücretsiz SMSHoş Geldin Hediyesi:5.000 Ücretsiz SMS",
+      "audience": "Sistemde kayıtlı olanlar",
+      "state": "Yayınlandı",
+      "createdAt": "2026-03-10T12:01:30.083Z",
+      "publishedAt": "2026-03-12T10:39:01.513Z"
+    },
+    {
+      "id": "ann-1773057033978-7650",
+      "title": "CRM Dashboard Performans Güncellemesi",
+      "content": "Dashboard üzerindeki grafiklerin yüklenme hızı SSE optimizasyonları ile %40 oranında artırılmıştır. Artık anlık verileri çok daha akıcı bir şekilde takip edebilirsiniz.\n\n",
+      "audience": "Sistemde kayıtlı olanlar",
+      "state": "Yayınlandı",
+      "publishedAt": "2026-03-10T11:59:10.320Z"
+    },
+    {
+      "id": "ann-1773054055699-4240",
+      "title": "CRM Dashboard Performans Güncellemesi",
+      "content": "Dashboard üzerindeki grafiklerin yüklenme hızı SSE optimizasyonları ile %40 oranında artırılmıştır. Artık anlık verileri çok daha akıcı bir şekilde takip edebilirsiniz.",
+      "audience": "Sistemde kayıtlı olanlar",
+      "state": "Yayınlandı",
+      "publishedAt": "2026-03-09T11:01:00.182Z"
+    },
+    {
+      "id": "ann-1773053576871-718",
+      "title": "Planlı Sunucu Bakımı",
+      "content": "Sistem genelinde yapılacak performans iyileştirmeleri nedeniyle bu gece saat 02:00 ile 04:00 arasında kısa süreli kesintiler yaşanabilir. Anlayışınız için teşekkür ederiz.",
+      "audience": "Sisteme yeni kayıt olanlar",
+      "state": "Yayınlandı",
+      "publishedAt": "2026-03-10T11:58:59.229Z"
+    },
+    {
+      "id": "ann-1773051990439-1933",
+      "title": "Hoş Geldin Hediyesi: 1.000 Ücretsiz SMS",
+      "content": "Solveline CRM ailesine yeni katılan işletmelere özel, ilk ay kullanabilecekleri 1.000 adet Toplu SMS kredisi hesaplarına otomatik olarak tanımlanmıştır.",
+      "audience": "Sisteme yeni kayıt olanlar",
+      "state": "Yayınlandı",
+      "publishedAt": "2026-03-09T10:30:09.057Z"
+    }
+  ]
+}
